@@ -1,0 +1,124 @@
+:root {
+    --main-bg: #f9fbfb;
+    --accent-bg: #eaebed;
+    --text-color: #000000;
+    --text-opacity: 0.7;
+    --secondary-text-color: #787878;
+    --secondary-text-opacity: 0.95;
+    --accent-color: #f2da3b;
+    --box-shadow: 3px 7px 11px rgba(20, 20, 21, 0.05);
+    --hover-bg: #71f6eb;
+}
+.review{
+    max-width: 100%;
+    background-color: var(--main-bg);
+}
+.wrap_review{
+    max-width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10%;
+}
+.review_text{
+    display: block;
+    max-width: 100%;
+    height: 75%;
+    padding: 10% 10% 5% 10%;
+    margin-top: 0.5%;
+    background-color: var(--accent-bg);
+    text-align: center;
+}
+.name_rew{
+    display: block;
+    font-family: "Merriweather - Bold", serif;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+.description_text{
+    display: block;
+    min-height: 50%;
+    padding-top: 5%;
+}
+.star_text{
+    display: block;
+    padding-top: 5%;
+}
+.star_text i{
+    color: var(--accent-color);
+}
+.name_rew i{
+    font-style: italic;
+    color: var(--secondary-text-color);
+    opacity: var(--secondary-text-opacity);
+    font-family: "Merriweather - Regular", serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.9px;
+}
+.nav_review{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+.errow_of{
+    display: block;
+    padding: 10px 14px;
+    box-shadow: var(--box-shadow);
+    border-radius: 3px;
+    background-color: #ffffff;
+    opacity: var(--text-opacity);
+    margin-left: 20px;
+    cursor: pointer;
+}
+.errow_of:hover{
+    background-color: #71f6eb;
+}
+.errow_on{
+    cursor: pointer;
+    display: block;
+    padding: 10px 14px;
+    box-shadow: 2px 6px 11px rgba(20, 20, 21, 0.1);
+    border-radius: 3px;
+    background-color: #71f6eb;
+    margin-left: 15px;
+}
+.fas{
+    letter-spacing: 7px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.description_1 {
+    display: block;
+    max-width: 50%;
+    margin-top: 4%;
+}
+.about_ul_1{
+    display: block;
+    max-width: 60%;
+    position: relative;
+}
+.about_media_1{
+    position: absolute;
+    min-width: 105%;
+    height: 77%;
+    top: 10%;
+    background-color: rgb(239, 240, 242);
+}
+.media_content_1{
+    position: relative;
+    left: 7.5%;
+    margin-bottom: 5%;
+    transition-duration: 1s;
+}
+.img_about_1{
+    max-width: 90%;
+    min-height: 100%;
+    transition-duration: 1s;
+}

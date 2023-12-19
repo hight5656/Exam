@@ -1,0 +1,22 @@
+:root {
+  --brand-bg-color: #ffffff;
+  --brand-block-max-width: 90%;
+  --brand-block-padding-y: 5%;
+  --brand-block-img-width: 100%;
+}
+
+.brand{
+  max-width: 100%;
+  background-color: var(--brand-bg-color);
+}
+.brand_block{
+  padding-top: var(--brand-block-padding-y);
+  padding-bottom: var(--brand-block-padding-y);
+  max-width: var(--brand-block-max-width);
+    margin: 0px auto;
+}
+.brand_block img{
+  width: var(--brand-block-img-width);
+  margin: 0 auto;
+  min-height: 100%;
+}
